@@ -1,0 +1,45 @@
+<%= form_for(@appetizer) do |f| %>
+  <% if @appetizer.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@appetizer.errors.count, "error") %> prohibited this appetizer from being saved:</h2>
+
+      <ul>
+      <% @appetizer.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :image_link %><br />
+    <%= f.text_field :image_link %>
+  </div>
+  <div class="field">
+    <%= f.label :prep_time %><br />
+    <%= f.text_field :prep_time %>
+  </div>
+  <div class="field">
+    <%= f.label :cook_time %><br />
+    <%= f.text_field :cook_time %>
+  </div>
+  <div class="field">
+    <%= f.label :ready_in %><br />
+    <%= f.text_field :ready_in %>
+  </div>
+  <div class="field">
+    <%= f.label :makes %><br />
+    <%= f.text_field :makes %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @appetizer.title %>
+</p>
+
+<p>
+  <b>Image link:</b>
+  <%= @appetizer.image_link %>
+</p>
+
+<p>
+  <b>Prep time:</b>
+  <%= @appetizer.prep_time %>
+</p>
+
+<p>
+  <b>Cook time:</b>
+  <%= @appetizer.cook_time %>
+</p>
+
+<p>
+  <b>Ready in:</b>
+  <%= @appetizer.ready_in %>
+</p>
+
+<p>
+  <b>Makes:</b>
+  <%= @appetizer.makes %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @appetizer.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_appetizer_path(@appetizer) %> |
+<%= link_to 'Back', appetizers_path %>
