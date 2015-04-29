@@ -12,7 +12,7 @@ class UsersController < ApplicationController
     @user = User.new(params[:user])
     if @user.save
       flash[:notice] = "Your account has been created."
-      redirect_to signup_url
+      redirect_to root_path
     else
       flash[:notice] = "There was a problem creating you."
       render :action => :new
@@ -32,7 +32,7 @@ class UsersController < ApplicationController
     @user = current_user # makes our views "cleaner" and more consistent
     if @user.update_attributes(params[:user])
       flash[:notice] = "Account updated!"
-      redirect_to account_url
+      redirect_to root_path
     else
       render :action => :edit
     end

@@ -45,7 +45,7 @@ a5 = Appetizer.create(:image_link => 'http://del.h-cdn.co/assets/cm/15/10/54f6d2
                   :ready_in => '25 MINS')
 
 
-l11 = LineItem.create(:qty => 1, :name => "(28 ounce) bag O'Brien potatoes'")
+l11 = LineItem.create(:qty => 1, :name => "(28 ounce) bag O'Brien potatoes")
 l12 = LineItem.create(:qty => 1, :name => "lb bacon, fried and crumbled")
 l13 = LineItem.create(:qty => 6, :name => "eggs")
 l14 = LineItem.create(:qty => 2, :name => "cups milk")
