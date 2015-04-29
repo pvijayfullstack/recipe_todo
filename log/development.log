@@ -28902,3 +28902,476 @@ Served asset /bootstrap.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 00:06:40 +0530
 Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 00:21:33 +0530
+Processing by SiteController#index as HTML
+ApplicationController::require_user
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`persistence_token` = '4efe3f77c873ff67a0d6f0574d6448209d581928ef305697d733378d56ee8a87216ad6b5264c74919d6062c70f6f69dc359c2e01d5374f9f4b02568ddc5eee90' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mUPDATE `users` SET `last_request_at` = '2015-04-29 18:51:33', `perishable_token` = 'FCMZrYly17I7aQHmJsT', `updated_at` = '2015-04-29 18:51:33' WHERE `users`.`id` = 1[0m
+  [1m[35m (62.5ms)[0m  COMMIT
+  [1m[36mAppetizer Load (0.1ms)[0m  [1mSELECT `appetizers`.* FROM `appetizers` [0m
+  Rendered site/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 209.8ms (Views: 16.3ms | ActiveRecord: 66.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/appetizers.css?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /appetizers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/appetizers.js?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /appetizers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 00:21:34 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Processing by SiteController#index as HTML
+ApplicationController::require_user
+  [1m[35mUser Load (0.7ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`persistence_token` = '4efe3f77c873ff67a0d6f0574d6448209d581928ef305697d733378d56ee8a87216ad6b5264c74919d6062c70f6f69dc359c2e01d5374f9f4b02568ddc5eee90' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  UPDATE `users` SET `last_request_at` = '2015-04-29 18:59:07', `perishable_token` = 'tns92FxA6Be6cS6rLl3', `updated_at` = '2015-04-29 18:59:07' WHERE `users`.`id` = 1
+  [1m[36m (57.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mAppetizer Load (0.2ms)[0m  SELECT `appetizers`.* FROM `appetizers` 
+  Rendered site/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 107.1ms (Views: 35.4ms | ActiveRecord: 59.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/appetizers.css?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /appetizers.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/appetizers.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /appetizers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:07 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/appetizers/5" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Processing by AppetizersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mAppetizer Load (0.4ms)[0m  [1mSELECT `appetizers`.* FROM `appetizers` WHERE `appetizers`.`id` = 5 LIMIT 1[0m
+  [1m[35mAppetizerLineItem Load (0.4ms)[0m  SELECT `appetizer_line_items`.* FROM `appetizer_line_items` WHERE `appetizer_line_items`.`appetizer_id` = 5
+  [1m[36mLineItem Load (0.2ms)[0m  [1mSELECT `line_items`.* FROM `line_items` WHERE `line_items`.`id` = 29 LIMIT 1[0m
+  [1m[35mLineItem Load (0.3ms)[0m  SELECT `line_items`.* FROM `line_items` WHERE `line_items`.`id` = 30 LIMIT 1
+  [1m[36mLineItem Load (0.2ms)[0m  [1mSELECT `line_items`.* FROM `line_items` WHERE `line_items`.`id` = 31 LIMIT 1[0m
+  [1m[35mLineItem Load (0.3ms)[0m  SELECT `line_items`.* FROM `line_items` WHERE `line_items`.`id` = 32 LIMIT 1
+  [1m[36mLineItem Load (0.2ms)[0m  [1mSELECT `line_items`.* FROM `line_items` WHERE `line_items`.`id` = 33 LIMIT 1[0m
+  [1m[35mLineItem Load (0.2ms)[0m  SELECT `line_items`.* FROM `line_items` WHERE `line_items`.`id` = 34 LIMIT 1
+  [1m[36mLineItem Load (0.3ms)[0m  [1mSELECT `line_items`.* FROM `line_items` WHERE `line_items`.`id` = 35 LIMIT 1[0m
+  [1m[35mLineItem Load (0.2ms)[0m  SELECT `line_items`.* FROM `line_items` WHERE `line_items`.`id` = 36 LIMIT 1
+  Rendered appetizers/show.html.erb within layouts/application (89.9ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`persistence_token` = '4efe3f77c873ff67a0d6f0574d6448209d581928ef305697d733378d56ee8a87216ad6b5264c74919d6062c70f6f69dc359c2e01d5374f9f4b02568ddc5eee90' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `users` SET `last_request_at` = '2015-04-29 18:59:17', `perishable_token` = 'q6K1oe81ki6dk1lS09un', `updated_at` = '2015-04-29 18:59:17' WHERE `users`.`id` = 1[0m
+  [1m[35m (42.2ms)[0m  COMMIT
+Completed 200 OK in 155.8ms (Views: 104.7ms | ActiveRecord: 48.9ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/appetizers.css?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /appetizers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/appetizers.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /appetizers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:17 +0530
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started POST "/appetizers/selected_items" for 127.0.0.1 at 2015-04-30 00:29:21 +0530
+Processing by AppetizersController#selected_items as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HrQJdnK1wMvs/kmwxzG7dTGEtMpwvh2eTejmNTHNq5c=", "appetizer_id"=>"5", "items"=>""}
+  [1m[36mAppetizer Load (0.2ms)[0m  [1mSELECT `appetizers`.* FROM `appetizers` WHERE `appetizers`.`id` = 5 LIMIT 1[0m
+  [1m[35mAppetizerLineItem Load (0.1ms)[0m  SELECT `appetizer_line_items`.* FROM `appetizer_line_items` WHERE `appetizer_line_items`.`appetizer_id` = 5
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`persistence_token` = '4efe3f77c873ff67a0d6f0574d6448209d581928ef305697d733378d56ee8a87216ad6b5264c74919d6062c70f6f69dc359c2e01d5374f9f4b02568ddc5eee90' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE `users` SET `last_request_at` = '2015-04-29 18:59:21', `perishable_token` = 'D6oNUt88PHv6LRevdka', `updated_at` = '2015-04-29 18:59:21' WHERE `users`.`id` = 1[0m
+  [1m[35m (36.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `carts` WHERE `carts`.`user_id` = 1 AND `carts`.`user_id` = 1 AND `carts`.`appetizer_line_item_id` = 29[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM `carts` WHERE `carts`.`user_id` = 1 AND `carts`.`user_id` = 1 AND `carts`.`appetizer_line_item_id` = 30
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM `carts` WHERE `carts`.`user_id` = 1 AND `carts`.`user_id` = 1 AND `carts`.`appetizer_line_item_id` = 31[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `carts` WHERE `carts`.`user_id` = 1 AND `carts`.`user_id` = 1 AND `carts`.`appetizer_line_item_id` = 32
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `carts` WHERE `carts`.`user_id` = 1 AND `carts`.`user_id` = 1 AND `carts`.`appetizer_line_item_id` = 33[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `carts` WHERE `carts`.`user_id` = 1 AND `carts`.`user_id` = 1 AND `carts`.`appetizer_line_item_id` = 34
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM `carts` WHERE `carts`.`user_id` = 1 AND `carts`.`user_id` = 1 AND `carts`.`appetizer_line_item_id` = 35[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `carts` WHERE `carts`.`user_id` = 1 AND `carts`.`user_id` = 1 AND `carts`.`appetizer_line_item_id` = 36
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT `carts`.* FROM `carts` WHERE `carts`.`user_id` = 1[0m
+  [1m[35mAppetizerLineItem Load (0.2ms)[0m  SELECT `appetizer_line_items`.* FROM `appetizer_line_items` WHERE `appetizer_line_items`.`id` = 16 LIMIT 1
+  [1m[36mLineItem Load (0.1ms)[0m  [1mSELECT `line_items`.* FROM `line_items` WHERE `line_items`.`id` = 16 LIMIT 1[0m
+  [1m[35mAppetizerLineItem Load (0.1ms)[0m  SELECT `appetizer_line_items`.* FROM `appetizer_line_items` WHERE `appetizer_line_items`.`id` = 15 LIMIT 1
+  [1m[36mLineItem Load (0.1ms)[0m  [1mSELECT `line_items`.* FROM `line_items` WHERE `line_items`.`id` = 15 LIMIT 1[0m
+  [1m[35mAppetizerLineItem Load (0.1ms)[0m  SELECT `appetizer_line_items`.* FROM `appetizer_line_items` WHERE `appetizer_line_items`.`id` = 7 LIMIT 1
+  [1m[36mLineItem Load (0.1ms)[0m  [1mSELECT `line_items`.* FROM `line_items` WHERE `line_items`.`id` = 7 LIMIT 1[0m
+  Rendered appetizers/_result.html.erb within layouts/application (82.0ms)
+Completed 200 OK in 180.3ms (Views: 98.5ms | ActiveRecord: 42.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/appetizers.css?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /appetizers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/appetizers.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /appetizers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-30 00:29:22 +0530
+Served asset /bootstrap.js - 304 Not Modified (0ms)
