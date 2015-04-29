@@ -1,6 +1,6 @@
 MoviewRatings::Application.routes.draw do
   
-  resources :appetizers
+
 
 
   resources :user_sessions
@@ -15,5 +15,7 @@ MoviewRatings::Application.routes.draw do
 
   resources :site
   root :to => 'site#index'
+
+   resources :appetizers
   
 end

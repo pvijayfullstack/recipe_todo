@@ -17,12 +17,12 @@
 <% @appetizers.each do |appetizer| %>
   <tr>
     <td><%= appetizer.title %></td>
-    <td><%= appetizer.image_link %></td>
+    <td><%= image_tag appetizer.image_link %></td>
     <td><%= appetizer.prep_time %></td>
     <td><%= appetizer.cook_time %></td>
     <td><%= appetizer.ready_in %></td>
     <td><%= appetizer.makes %></td>
-    <td><%= appetizer.description %></td>
+    <td><%= raw appetizer.description %></td>
     <td><%= link_to 'Show', appetizer %></td>
     <td><%= link_to 'Edit', edit_appetizer_path(appetizer) %></td>
     <td><%= link_to 'Destroy', appetizer, method: :delete, data: { confirm: 'Are you sure?' } %></td>

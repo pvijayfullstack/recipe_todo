@@ -4,7 +4,7 @@ class SiteController < ApplicationController
 
   def index
     #http://stopandshop.com/recipes-and-meals/recipes/beer-steamed-clams/
-    @appetizer = Appetizer.all
+    @appetizers = Appetizer.all
   end
 
 end
