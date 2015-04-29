@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62752b2e-4690-4f91-a4df-442c8aa66e87" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/site_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/site_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/appetizer.rb" afterPath="$PROJECT_DIR$/app/models/appetizer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/appetizers/index.html.erb" afterPath="$PROJECT_DIR$/app/views/appetizers/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/recipe_todo.iml" afterPath="$PROJECT_DIR$/.idea/recipe_todo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/appetizers/show.html.erb" afterPath="$PROJECT_DIR$/app/views/appetizers/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/site/index.html.erb" afterPath="$PROJECT_DIR$/app/views/site/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20150427045307_create_appetizers.rb" afterPath="$PROJECT_DIR$/db/migrate/20150427045307_create_appetizers.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
     </list>
     <ignored path="recipe_todo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,7 +76,16 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/appetizers/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="42" selection-start="386" selection-end="386" vertical-scroll-proportion="0.56532663">
+            <state line="3" column="1" selection-start="39" selection-end="39" vertical-scroll-proportion="0.056532662">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="25" selection-start="636" selection-end="636" vertical-scroll-proportion="-15.535714">
               <folding />
             </state>
           </provider>
@@ -132,6 +134,7 @@
         <option value="$PROJECT_DIR$/app/controllers/site_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/site/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/appetizers/index.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/appetizers/show.html.erb" />
       </list>
     </option>
@@ -611,9 +614,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="25" selection-start="636" selection-end="636" vertical-scroll-proportion="-15.535714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/appetizers/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="42" selection-start="386" selection-end="386" vertical-scroll-proportion="0.56532663">
+        <state line="3" column="1" selection-start="39" selection-end="39" vertical-scroll-proportion="0.056532662">
           <folding />
         </state>
       </provider>
