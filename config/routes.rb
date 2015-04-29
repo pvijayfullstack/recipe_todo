@@ -1,4 +1,4 @@
-MoviewRatings::Application.routes.draw do
+RecipeTodo::Application.routes.draw do
   
 
 

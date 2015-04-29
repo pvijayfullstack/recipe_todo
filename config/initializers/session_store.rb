@@ -1,8 +1,8 @@
 # Be sure to restart your server when you modify this file.
 
-MoviewRatings::Application.config.session_store :cookie_store, key: '_moview_ratings_session'
+RecipeTodo::Application.config.session_store :cookie_store, key: '_recipe_todo_ratings_session'
 
 # Use the database for sessions instead of the cookie-based default,
 # which shouldn't be used to store highly confidential information
 # (create the session table with "rails generate session_migration")
-# MoviewRatings::Application.config.session_store :active_record_store
+# RecipeTodo::Application.config.session_store :active_record_store

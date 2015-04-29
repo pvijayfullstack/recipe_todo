@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-MoviewRatings::Application.load_tasks
+RecipeTodo::Application.load_tasks
