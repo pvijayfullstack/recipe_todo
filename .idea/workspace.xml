@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62752b2e-4690-4f91-a4df-442c8aa66e87" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
     </list>
     <ignored path="recipe_todo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,10 +80,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="97" selection-start="665" selection-end="665" vertical-scroll-proportion="0.58536583">
+            <state line="19" column="74" selection-start="396" selection-end="396" vertical-scroll-proportion="-10.178572">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="72" selection-start="497" selection-end="497" vertical-scroll-proportion="0.38414633">
               <folding />
             </state>
           </provider>
@@ -107,15 +116,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20150427045307_create_appetizers.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20150427045307_create_appetizers.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="7" selection-start="300" selection-end="300" vertical-scroll-proportion="-6.964286">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -134,6 +134,7 @@
         <option value="$PROJECT_DIR$/app/views/appetizers/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/appetizers/show.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
       </list>
     </option>
   </component>
@@ -621,7 +622,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="97" selection-start="665" selection-end="665" vertical-scroll-proportion="0.58536583">
+        <state line="19" column="74" selection-start="396" selection-end="396" vertical-scroll-proportion="-10.178572">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="72" selection-start="497" selection-end="497" vertical-scroll-proportion="0.38414633">
           <folding />
         </state>
       </provider>
