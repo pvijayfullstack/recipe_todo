@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62752b2e-4690-4f91-a4df-442c8aa66e87" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/recipe_todo.iml" afterPath="$PROJECT_DIR$/.idea/recipe_todo.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/appetizers/show.html.erb" afterPath="$PROJECT_DIR$/app/views/appetizers/show.html.erb" />
     </list>
     <ignored path="recipe_todo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,19 +71,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/appetizers/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="1" selection-start="39" selection-end="39" vertical-scroll-proportion="0.056532662">
+            <state line="16" column="111" selection-start="211" selection-end="211" vertical-scroll-proportion="-4.6153846">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="25" selection-start="636" selection-end="636" vertical-scroll-proportion="-15.535714">
+            <state line="32" column="97" selection-start="665" selection-end="665" vertical-scroll-proportion="0.58536583">
               <folding />
             </state>
           </provider>
@@ -134,8 +132,8 @@
         <option value="$PROJECT_DIR$/app/controllers/site_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/site/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/appetizers/index.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/appetizers/show.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -614,16 +612,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/views/appetizers/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="25" selection-start="636" selection-end="636" vertical-scroll-proportion="-15.535714">
+        <state line="16" column="111" selection-start="211" selection-end="211" vertical-scroll-proportion="-4.6153846">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/appetizers/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="1" selection-start="39" selection-end="39" vertical-scroll-proportion="0.056532662">
+        <state line="32" column="97" selection-start="665" selection-end="665" vertical-scroll-proportion="0.58536583">
           <folding />
         </state>
       </provider>

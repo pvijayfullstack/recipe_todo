@@ -5,7 +5,10 @@ gem 'rails', '3.2.17'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2'
+group :development do
+  gem 'mysql2'
+end
+
 gem 'authlogic', '~> 3.4.1'
 gem 'bcrypt', '~> 3.1.7'
 gem 'scrypt', '1.2.1'
