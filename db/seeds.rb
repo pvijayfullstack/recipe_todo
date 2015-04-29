@@ -7,195 +7,138 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
- Appetizer.create(:image_link => 'http://cdn.peapod.com/site/60/0/0/0/4642f2a1-d678-4877-a0a9-d9455c329117.jpg',
-                  :title => 'watermelon salsa', :cook_time => '0 minutes',
-                  :description => '<div class=" twelve-col tile ">
-                                  <h3>ingredients</h3>
-                                  <ul class="halves with-list-style">
-                                  <ul class="halves with-list-style">
-                                  </div>
-                                  <article class="wrap-right no-image ">
-                                  <article class="wrap-right no-image "></div>',
-                  :makes => '12 servings, 1/4 cup each',
-                  :prep_time => '15 minutes',
-                  :ready_in => '15 minutes',
-                  :title => 'watermelon salsa')
+ a1 = Appetizer.create(:image_link => 'http://del.h-cdn.co/assets/cm/15/10/54f6d23c8066b_-_frosty-strawberry-cream-milk-shakes-recipe-fw0513-de.jpg',
+                  :title => 'Breakfast Casserole',
+                  :cook_time => '30 MINS',
+                  :prep_time => '1 HR',
+                  :ready_in => '1 HR 30 MINS')
 
 
-Appetizer.create(:image_link => 'http://cdn.peapod.com/site/61/0/0/0/d47e5304-ca38-4835-8389-3e174baae2de.jpg',
-                  :title => 'watermelon salsa', :cook_time => '0 minutes',
-                  :description => '<div class=" twelve-col tile ">
-                                  <h3>ingredients</h3>
-                                  <ul class="halves with-list-style">
-                                  <ul class="halves with-list-style">
-                                  </div>
-                                  <article class="wrap-right no-image ">
-                                  <article class="wrap-right no-image "></div>',
-                  :makes => '12 servings, 1/4 cup each',
-                  :prep_time => '15 minutes',
-                  :ready_in => '15 minutes',
-                  :title => 'watermelon salsa')
+a2 = Appetizer.create(:image_link => 'http://del.h-cdn.co/assets/cm/15/10/54f642873e3cd_-_la103380_0708_berry_shake_sxl.jpg',
+                  :title => 'Breakfast Before',
+                  :cook_time => '8 HRS 30 MINS',
+                  :prep_time => '45 MINS',
+                  :ready_in => '55 MINS')
 
 
 
-Appetizer.create(:image_link => 'hhttp://cdn.peapod.com/site/72/0/0/0/d5c0a4fa-2e16-41a9-9509-2c8c66ed24ac.jpg',
-                  :title => 'watermelon salsa', :cook_time => '0 minutes',
-                  :description => '<div class=" twelve-col tile ">
-                                  <h3>ingredients</h3>
-                                  <ul class="halves with-list-style">
-                                  <ul class="halves with-list-style">
-                                  </div>
-                                  <article class="wrap-right no-image ">
-                                  <article class="wrap-right no-image "></div>',
-                  :makes => '12 servings, 1/4 cup each',
-                  :prep_time => '15 minutes',
-                  :ready_in => '15 minutes',
-                  :title => 'watermelon salsa')
+a3 = Appetizer.create(:image_link => 'http://del.h-cdn.co/assets/cm/15/10/54f8a95ee1cc4_-_banana-split-milkshake-xlg.jpg',
+                  :title => 'Easy Breakfast Egg Casserole',
+                  :cook_time => '10 MINS',
+                  :prep_time => '45 MINS',
+                  :ready_in => '1 HR 30 MINS')
 
 
-Appetizer.create(:image_link => 'http://cdn.peapod.com/site/19/0/0/0/1c5778b2-d3dc-413e-b752-8f877172e474.jpg',
-                  :title => 'watermelon salsa', :cook_time => '0 minutes',
-                  :description => '<div class=" twelve-col tile ">
-                                  <h3>ingredients</h3>
-                                  <ul class="halves with-list-style">
-                                  <ul class="halves with-list-style">
-                                  </div>
-                                  <article class="wrap-right no-image ">
-                                  <article class="wrap-right no-image "></div>',
-                  :makes => '12 servings, 1/4 cup each',
-                  :prep_time => '15 minutes',
-                  :ready_in => '15 minutes',
-                  :title => 'watermelon salsa')
+
+a4 = Appetizer.create(:image_link => 'http://del.h-cdn.co/assets/cm/15/10/54f680158c6a3_-_bobby-flay-dark-chocolate-milkshake-xl-95494595.jpg',
+                  :title => 'Breakfast Slop',
+                  :cook_time => '15 MINS',
+                  :prep_time => '15 MINS',
+                  :ready_in => '30 MINS')
 
 
-Appetizer.create(:image_link => 'http://cdn.peapod.com/site/59/0/0/0/d5ad52c8-ef98-4a06-9adb-64e91b09b465.jpg',
-                  :title => 'watermelon salsa', :cook_time => '0 minutes',
-                  :description => '<div class=" twelve-col tile ">
-                                  <h3>ingredients</h3>
-                                  <ul class="halves with-list-style">
-                                  <ul class="halves with-list-style">
-                                  </div>
-                                  <article class="wrap-right no-image ">
-                                  <article class="wrap-right no-image "></div>',
-                  :makes => '12 servings, 1/4 cup each',
-                  :prep_time => '15 minutes',
-                  :ready_in => '15 minutes',
-                  :title => 'watermelon salsa')
+
+a5 = Appetizer.create(:image_link => 'http://del.h-cdn.co/assets/cm/15/10/54f6d23141f64_-_horchata-milk-shake-recipe-fw0513-xl.jpg',
+                  :title => "Farmer's Breakfast",
+                  :cook_time => '5 MINS',
+                  :prep_time => '20 MINS',
+                  :ready_in => '25 MINS')
 
 
-Appetizer.create(:image_link => 'http://cdn.peapod.com/site/13/0/0/0/76ebbe86-751c-4d7a-8928-97f4b805c9c1.jpg',
-                  :title => 'watermelon salsa', :cook_time => '0 minutes',
-                  :description => '<div class=" twelve-col tile ">
-                                  <h3>ingredients</h3>
-                                  <ul class="halves with-list-style">
-                                  <ul class="halves with-list-style">
-                                  </div>
-                                  <article class="wrap-right no-image ">
-                                  <article class="wrap-right no-image "></div>',
-                  :makes => '12 servings, 1/4 cup each',
-                  :prep_time => '15 minutes',
-                  :ready_in => '15 minutes',
-                  :title => 'watermelon salsa')
+l11 = LineItem.create(:qty => 1, :name => "(28 ounce) bag O'Brien potatoes'")
+l12 = LineItem.create(:qty => 1, :name => "lb bacon, fried and crumbled")
+l13 = LineItem.create(:qty => 6, :name => "eggs")
+l14 = LineItem.create(:qty => 2, :name => "cups milk")
+l15 = LineItem.create(:qty => 2, :name => "cups shredded cheddar cheese")
+
+AppetizerLineItem.create(:appetizer_id => a1.id, :line_item_id => l11.id )
+AppetizerLineItem.create(:appetizer_id => a1.id, :line_item_id => l12.id)
+AppetizerLineItem.create(:appetizer_id => a1.id, :line_item_id => l13.id )
+AppetizerLineItem.create(:appetizer_id => a1.id, :line_item_id => l14.id)
+AppetizerLineItem.create(:appetizer_id => a1.id, :line_item_id => l15.id )
 
 
-Appetizer.create(:image_link => 'http://cdn.peapod.com/site/59/0/0/0/a32e4d70-0d29-4b75-95c0-95a8ed129306.jpg',
-                  :title => 'watermelon salsa', :cook_time => '0 minutes',
-                  :description => '<div class=" twelve-col tile ">
-                                  <h3>ingredients</h3>
-                                  <ul class="halves with-list-style">
-                                  <ul class="halves with-list-style">
-                                  </div>
-                                  <article class="wrap-right no-image ">
-                                  <article class="wrap-right no-image "></div>',
-                  :makes => '12 servings, 1/4 cup each',
-                  :prep_time => '15 minutes',
-                  :ready_in => '15 minutes',
-                  :title => 'watermelon salsa')
+l21 = LineItem.create(:qty => 1, :name => "lb spicy pork sausage")
+l22 = LineItem.create(:qty => 6, :name => "eggs")
+l23 = LineItem.create(:qty => 2, :name => "cups milk")
+l24 = LineItem.create(:qty => 1, :name => "teaspoon salt")
+l25 = LineItem.create(:qty => 1, :name => "teaspoon mustard")
+l26 = LineItem.create(:qty => 4, :name => "slices bread, cubed")
+l27 = LineItem.create(:qty => 1, :name => "cup grated sharp cheddar cheese")
+
+AppetizerLineItem.create(:appetizer_id => a2.id, :line_item_id => l21.id )
+AppetizerLineItem.create(:appetizer_id => a2.id, :line_item_id => l22.id)
+AppetizerLineItem.create(:appetizer_id => a2.id, :line_item_id => l23.id )
+AppetizerLineItem.create(:appetizer_id => a2.id, :line_item_id => l24.id)
+AppetizerLineItem.create(:appetizer_id => a2.id, :line_item_id => l25.id )
+AppetizerLineItem.create(:appetizer_id => a2.id, :line_item_id => l26.id)
+AppetizerLineItem.create(:appetizer_id => a2.id, :line_item_id => l27.id)
 
 
-Appetizer.create(:image_link => 'http://cdn.peapod.com/site/31/0/0/0/01d586e7-991e-47ff-babb-4e94c1309c56.jpg',
-                  :title => 'watermelon salsa', :cook_time => '0 minutes',
-                  :description => '<div class=" twelve-col tile ">
-                                  <h3>ingredients</h3>
-                                  <ul class="halves with-list-style">
-                                  <ul class="halves with-list-style">
-                                  </div>
-                                  <article class="wrap-right no-image ">
-                                  <article class="wrap-right no-image "></div>',
-                  :makes => '12 servings, 1/4 cup each',
-                  :prep_time => '15 minutes',
-                  :ready_in => '15 minutes',
-                  :title => 'watermelon salsa')
-
-Appetizer.create(:image_link => 'http://cdn.peapod.com/site/61/0/0/0/93c79548-7719-4ff4-b5be-ab8254762bf7.jpg',
-                  :title => 'watermelon salsa', :cook_time => '0 minutes',
-                  :description => '<div class=" twelve-col tile ">
-                                  <h3>ingredients</h3>
-                                  <ul class="halves with-list-style">
-                                  <ul class="halves with-list-style">
-                                  </div>
-                                  <article class="wrap-right no-image ">
-                                  <article class="wrap-right no-image "></div>',
-                  :makes => '12 servings, 1/4 cup each',
-                  :prep_time => '15 minutes',
-                  :ready_in => '15 minutes',
-                  :title => 'watermelon salsa')
 
 
-Appetizer.create(:image_link => 'http://cdn.peapod.com/site/58/0/0/0/2fbbf5b9-e731-447a-b841-5ca45462890e.jpg',
-                  :title => 'watermelon salsa', :cook_time => '0 minutes',
-                  :description => '<div class=" twelve-col tile ">
-                                  <h3>ingredients</h3>
-                                  <ul class="halves with-list-style">
-                                  <ul class="halves with-list-style">
-                                  </div>
-                                  <article class="wrap-right no-image ">
-                                  <article class="wrap-right no-image "></div>',
-                  :makes => '12 servings, 1/4 cup each',
-                  :prep_time => '15 minutes',
-                  :ready_in => '15 minutes',
-                  :title => 'watermelon salsa')
-
-Appetizer.create(:image_link => 'hhttp://cdn.peapod.com/site/73/0/0/0/a1647646-b3ff-4007-aa79-bed85eee4561.jpg',
-                  :title => 'watermelon salsa', :cook_time => '0 minutes',
-                  :description => '<div class=" twelve-col tile ">
-                                  <h3>ingredients</h3>
-                                  <ul class="halves with-list-style">
-                                  <ul class="halves with-list-style">
-                                  </div>
-                                  <article class="wrap-right no-image ">
-                                  <article class="wrap-right no-image "></div>',
-                  :makes => '12 servings, 1/4 cup each',
-                  :prep_time => '15 minutes',
-                  :ready_in => '15 minutes',
-                  :title => 'watermelon salsa')
-
-Appetizer.create(:image_link => 'hhttp://cdn.peapod.com/site/82/0/0/0/58d77d42-8b41-4a75-b8ff-64b54ff84de6.jpg',
-                  :title => 'watermelon salsa', :cook_time => '0 minutes',
-                  :description => '<div class=" twelve-col tile ">
-                                  <h3>ingredients</h3>
-                                  <ul class="halves with-list-style">
-                                  <ul class="halves with-list-style">
-                                  </div>
-                                  <article class="wrap-right no-image ">
-                                  <article class="wrap-right no-image "></div>',
-                  :makes => '12 servings, 1/4 cup each',
-                  :prep_time => '15 minutes',
-                  :ready_in => '15 minutes',
-                  :title => 'watermelon salsa')
+l31 = LineItem.create(:qty => 6, :name => "slices white bread, torn into pieces")
+l32 = LineItem.create(:qty => 1, :name => "lb bulk pork sausage, cooked and drained")
+l33 = LineItem.create(:qty => 1, :name => "cup cheddar cheese, shredded")
+l34 = LineItem.create(:qty => 6, :name => "eggs")
+l35 = LineItem.create(:qty => 2, :name => " cups milk")
+l36 = LineItem.create(:qty => 1, :name => "teaspoon salt")
+l37 = LineItem.create(:qty => 1.4, :name => " teaspoon pepper")
 
 
-Appetizer.create(:image_link => 'http://cdn.peapod.com/site/61/0/0/0/06709484-9628-4e49-86da-81355479a7d1.jpg',
-                  :title => 'watermelon salsa', :cook_time => '0 minutes',
-                  :description => '<div class=" twelve-col tile ">
-                                  <h3>ingredients</h3>
-                                  <ul class="halves with-list-style">
-                                  <ul class="halves with-list-style">
-                                  </div>
-                                  <article class="wrap-right no-image ">
-                                  <article class="wrap-right no-image "></div>',
-                  :makes => '12 servings, 1/4 cup each',
-                  :prep_time => '15 minutes',
-                  :ready_in => '15 minutes',
-                  :title => 'watermelon salsa')
+AppetizerLineItem.create(:appetizer_id => a3.id, :line_item_id => l31.id )
+AppetizerLineItem.create(:appetizer_id => a3.id, :line_item_id => l32.id)
+AppetizerLineItem.create(:appetizer_id => a3.id, :line_item_id => l33.id )
+AppetizerLineItem.create(:appetizer_id => a3.id, :line_item_id => l34.id)
+AppetizerLineItem.create(:appetizer_id => a3.id, :line_item_id => l35.id )
+AppetizerLineItem.create(:appetizer_id => a3.id, :line_item_id => l36.id)
+AppetizerLineItem.create(:appetizer_id => a3.id, :line_item_id => l37.id)
+
+
+l41 = LineItem.create(:qty => 4, :name => "large biscuits (refrigerated type or home made)")
+l42 = LineItem.create(:qty => 1, :name => "lb bulk breakfast sausage")
+l43 = LineItem.create(:qty => 4, :name => "large eggs")
+l44 = LineItem.create(:qty => 1, :name => "cup shredded cheddar cheese")
+l45 = LineItem.create(:qty => 2.5, :name => "cups milk")
+l46 = LineItem.create(:qty => 4, :name => "tablespoons flour")
+l47 = LineItem.create(:qty => 4, :name => "tablespoons unsalted butter")
+l48 = LineItem.create(:qty => 1, :name => "teaspoon kosher salt")
+l49 = LineItem.create(:qty => 0.5, :name => "teaspoon black pepper")
+
+
+AppetizerLineItem.create(:appetizer_id => a4.id, :line_item_id => l41.id )
+AppetizerLineItem.create(:appetizer_id => a4.id, :line_item_id => l42.id)
+AppetizerLineItem.create(:appetizer_id => a4.id, :line_item_id => l43.id )
+AppetizerLineItem.create(:appetizer_id => a4.id, :line_item_id => l44.id)
+AppetizerLineItem.create(:appetizer_id => a4.id, :line_item_id => l45.id )
+AppetizerLineItem.create(:appetizer_id => a4.id, :line_item_id => l46.id)
+AppetizerLineItem.create(:appetizer_id => a4.id, :line_item_id => l47.id)
+AppetizerLineItem.create(:appetizer_id => a4.id, :line_item_id => l48.id)
+AppetizerLineItem.create(:appetizer_id => a4.id, :line_item_id => l49.id)
+
+
+
+l51 = LineItem.create(:qty => 6, :name => "slices bacon")
+l52 = LineItem.create(:qty => 1, :name => "tablespoon butter")
+l53 = LineItem.create(:qty => 1, :name => "onion, chopped")
+l54 = LineItem.create(:qty => 4, :name => "potatoes, cooked and finely diced")
+l55 = LineItem.create(:qty => 6, :name => "eggs")
+l56 = LineItem.create(:qty => 0.5, :name => "teaspoon kosher salt (to taste)")
+l57 = LineItem.create(:qty => 0.15, :name => "teaspoon fresh ground black pepper")
+l58 = LineItem.create(:qty => 0.25, :name => "cup milk")
+
+
+AppetizerLineItem.create(:appetizer_id => a5.id, :line_item_id => l51.id )
+AppetizerLineItem.create(:appetizer_id => a5.id, :line_item_id => l52.id)
+AppetizerLineItem.create(:appetizer_id => a5.id, :line_item_id => l53.id )
+AppetizerLineItem.create(:appetizer_id => a5.id, :line_item_id => l54.id)
+AppetizerLineItem.create(:appetizer_id => a5.id, :line_item_id => l55.id )
+AppetizerLineItem.create(:appetizer_id => a5.id, :line_item_id => l56.id)
+AppetizerLineItem.create(:appetizer_id => a5.id, :line_item_id => l57.id)
+AppetizerLineItem.create(:appetizer_id => a5.id, :line_item_id => l58.id)
+
+
+
+
+
 

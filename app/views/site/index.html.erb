@@ -1,6 +1,7 @@
+<div class="row">
+          <div class="span9">
 
-
- <% @appetizers.each do |appetizer| %>
+              <% @appetizers.each do |appetizer| %>
 
   <div class="span3">
 
@@ -15,6 +16,22 @@
 
   <div style="padding: 10px;"></div>
 <% end %>
+          </div>
+
+          <div class="span3">
+            <div class="well sidebar-nav">
+              <h3>recipe categories</h3>
+              <ul class="nav nav-list">
+                <li class="nav-header">---------------------</li>
+                <li><%= link_to "appetizers", "/site"  %></li>
+               </ul>
+            </div><!--/.well -->
+          </div><!--/span-->
+
+
+       </div><!--/row-->
+
+
 
  <style type="text/css">
    .span3 {

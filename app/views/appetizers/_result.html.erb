@@ -1,0 +1,10 @@
+
+
+<% current_user.carts.each do |cart| %>
+
+
+  <li>
+     <%= cart.appetizer_line_item.line_item.qty %>: <%= cart.appetizer_line_item.line_item.name %>
+  </li>
+
+<% end %>

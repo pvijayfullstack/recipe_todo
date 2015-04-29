@@ -1,38 +1,87 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <b><%= @appetizer.title %></b>
-</p>
-
-<p>
-  <%= image_tag @appetizer.image_link %>
-</p>
-
-<p>
-  <b>Prep time:</b>
-  <%= @appetizer.prep_time %>
-</p>
-
-<p>
-  <b>Cook time:</b>
-  <%= @appetizer.cook_time %>
-</p>
-
-<p>
-  <b>Ready in:</b>
-  <%= @appetizer.ready_in %>
-</p>
-
-<p>
-  <b>Makes:</b>
-  <%= @appetizer.makes %>
-</p>
-
-<p>
-  <b>Description:</b>
-  <%= raw @appetizer.description %>
-</p>
 
 
-<%= link_to 'Edit', edit_appetizer_path(@appetizer) %> |
-<%= link_to 'Back', appetizers_path %>
+<div class="row">
+
+    <div class="span12">
+
+        <div class="span56">
+          <p>
+          <%= image_tag @appetizer.image_link %>
+        </p>
+          <p>
+          <b><%= @appetizer.title %></b>
+        </p>
+        </div>
+
+        <br/><br/><br/><br/><br/><br/>
+        <div class="span3 well sidebar-nav" style="background: #000">
+
+
+          <p>
+            <b stlyle="color:#fff">Prep time:</b>
+            <%= @appetizer.prep_time %>
+          </p>
+
+          <p>
+             <b stlyle="color:#fff">Cook time:</b>
+            <%= @appetizer.cook_time %>
+          </p>
+
+          <p>
+            <b stlyle="color:#fff">TOTAL TIME:</b>
+            <%= @appetizer.ready_in %>
+          </p>
+
+
+
+        </div>
+
+     <div class="span6"></div>
+
+    </div>
+  </div>
+
+  <div class="row">
+
+    <b>Ingredients</b>
+           <ul class = 'selected_items' >
+           <% @appetizer.appetizer_line_items.each do |appetizer_line_item| %>
+             <li>
+               <input type="checkbox" name="<%= appetizer_line_item.id %>" value="<%= appetizer_line_item.id %>" class = "recipe" >
+                <%= appetizer_line_item.line_item.qty %> <%= appetizer_line_item.line_item.name %></li>
+           <% end %>
+           </ul>
+
+   </div>
+
+
+<%= form_tag selected_items_appetizers_path, :method => :post, :id => 'recipes_form'  do  %>
+  <%= hidden_field_tag :appetizer_id , @appetizer.id %>
+  <%= hidden_field_tag "items",  nil, :id => 'recipe_ids'  %>
+  <%= link_to 'Add cart', 'javascript:void(0)',  :onclick => "$('#recipes_form').submit();", :class => 'btn' %>
+<% end %>
+
+
+
+<style type="text/css">
+  p{
+     color:#fff;
+  }
+</style>
+
+<script type="text/javascript">
+    function updateTextArea() {
+         var allVals = $('.selected_items :checked').map(function() {
+           return $(this).val();
+         }).get();
+         $('#recipe_ids').val(allVals)
+      }
+     $(function() {
+       $('.selected_items').click(updateTextArea);
+       updateTextArea();
+     });
+
+</script>
+
+
+<%#= link_to 'Back', appetizers_path %>

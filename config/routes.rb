@@ -16,6 +16,10 @@ RecipeTodo::Application.routes.draw do
   resources :site
   root :to => 'site#index'
 
-   resources :appetizers
+   resources :appetizers  do
+     collection do
+       post :selected_items
+     end
+   end
   
 end

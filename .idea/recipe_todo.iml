@@ -130,6 +130,7 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] json (v1.8.2, /home/vijay/.rvm/gems/ruby-1.9.3-p392@dealsfull/gems/json-1.8.2)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] builder (v3.1.4, /home/vijay/.rvm/gems/ruby-1.9.3-p392@dealsfull/gems/builder-3.1.4)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] activemodel (v3.2.13, /home/vijay/.rvm/gems/ruby-1.9.3-p392@global/gems/activemodel-3.2.13)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] pg (v0.17.0, /home/vijay/.rvm/gems/ruby-1.9.3-p392@dealsfull/gems/pg-0.17.0)" level="application" />
   </component>
 </module>
 
