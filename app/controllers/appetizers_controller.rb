@@ -3,7 +3,7 @@ class AppetizersController < ApplicationController
   # GET /appetizers.json
   def index
     @appetizers = Appetizer.all
-     redirect_to root_path and return
+
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @appetizers }

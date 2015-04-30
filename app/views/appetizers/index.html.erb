@@ -1,35 +1,92 @@
-<h1>Listing appetizers</h1>
 
-<table>
-  <tr>
-    <th>Title</th>
-    <th>Image link</th>
-    <th>Prep time</th>
-    <th>Cook time</th>
-    <th>Ready in</th>
-    <th>Makes</th>
-    <th>Description</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
 
-<% @appetizers.each do |appetizer| %>
-  <tr>
-    <td><%= appetizer.title %></td>
-    <td><%= image_tag appetizer.image_link %></td>
-    <td><%= appetizer.prep_time %></td>
-    <td><%= appetizer.cook_time %></td>
-    <td><%= appetizer.ready_in %></td>
-    <td><%= appetizer.makes %></td>
-    <td><%= raw appetizer.description %></td>
-    <td><%= link_to 'Show', appetizer %></td>
-    <td><%= link_to 'Edit', edit_appetizer_path(appetizer) %></td>
-    <td><%= link_to 'Destroy', appetizer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
-</table>
+ <% @appetizers.each do |appetizer| %>
+ <div class="row">
 
-<br />
+    <div class="span12">
 
-<%= link_to 'New Appetizer', new_appetizer_path %>
+        <div class="span2">
+          <p>
+          <%= image_tag appetizer.image_link %>
+        </p>
+          <p>
+          <b style="color:#afafaf"><%= truncate appetizer.title, :length => 20 %></b>
+          <%= link_to 'Edit', edit_appetizer_path(appetizer) %>
+        </p>
+        </div>
+
+
+        <div class="span2 well sidebar-nav" style="background: #000">
+
+
+          <p>
+            <b stlyle="color:#fff">Prep time:</b>
+            <%= appetizer.prep_time %>
+          </p>
+
+          <p>
+             <b stlyle="color:#fff">Cook time:</b>
+            <%= appetizer.cook_time %>
+          </p>
+
+          <p>
+            <b stlyle="color:#fff">TOTAL TIME:</b>
+            <%= appetizer.ready_in %>
+          </p>
+
+        </div>
+
+      <div class="span2">
+         <b>Ingredients</b>
+           <ul class = 'selected_items' >
+           <% appetizer.appetizer_line_items.each do |appetizer_line_item| %>
+             <li>
+               <input type="checkbox" name="<%= appetizer_line_item.id %>" value="<%= appetizer_line_item.id %>" class = "recipe" >
+                <%= appetizer_line_item.line_item.qty %> <%= appetizer_line_item.line_item.name %></li>
+           <% end %>
+           </ul>
+      </div>
+
+
+     </div>
+ </div>
+  <hr>
+ <% end %>
+
+ <div class="row">
+
+      <div class="span6"></div>
+        <div class="span6">
+        <%= form_tag selected_items_appetizers_path, :method => :post, :id => 'recipes_form'  do  %>
+        <%= text_field_tag "items",  nil, :id => 'recipe_ids'  %>
+        <%= link_to 'Add cart', 'javascript:void(0)',  :onclick => "$('#recipes_form').submit();", :class => 'btn' %>
+       <% end %>
+     </div>
+
+ </div>
+
+  <br/>
+
+<%= link_to 'New Appetizer', new_appetizer_path, :class => 'btn' %>
+ <br/> <br/> <br/>
+
+
+ <style type="text/css">
+  p{
+     color:#fff;
+  }
+</style>
+
+<script type="text/javascript">
+    function updateTextArea() {
+         var allVals = $('.selected_items :checked').map(function() {
+           return $(this).val();
+         }).get();
+         $('#recipe_ids').val(allVals)
+      }
+     $(function() {
+       $('.selected_items').click(updateTextArea);
+       updateTextArea();
+     });
+
+</script>
